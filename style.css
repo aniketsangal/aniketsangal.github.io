@@ -1,0 +1,329 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo {
+  height: 90px;
+  padding-left: 120px;
+}
+.lang {
+  color: white;
+  background-color: transparent;
+  width: 120px;
+  border: 1px solid grey;
+}
+.signin {
+  color: white;
+  background-color: red;
+  border: none;
+}
+.btn {
+  height: 27px;
+  margin: 4px;
+}
+.right {
+  padding-right: 140px;
+  margin-left: auto;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+.mid img {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.3;
+  display: block;
+  object-fit: cover;
+}
+.mid {
+  position: relative;
+}
+.data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 5;
+  text-align: center;
+}
+
+.data .un h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 0;
+  line-height: 0.9;
+}
+.price {
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.enter {
+  font-size: 18px;
+}
+.email {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.email input {
+  padding: 15px;
+  width: 400px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: gray;
+  border: 1px solid gray;
+}
+.email button {
+  background-color: red;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.sep {
+  height: 8px;
+  background-color: rgb(105, 105, 105);
+  width: 100%;
+}
+.mov h3 {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 125px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.trend {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px;
+  padding-top: 10px;
+}
+.trend img {
+  width: 160px;
+  border-radius: 12px;
+}
+.reason {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  gap: 30px;
+}
+.join h3 {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 125px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.icon {
+  height: 320px;
+  width: 250px;
+  background-image: url(Red-and-blue-mixed-together.webp);
+  background-size: cover;
+  flex-direction: column;
+  color: rgb(219, 209, 209);
+  display: flex;
+  overflow: hidden;
+  border-radius: 22px;
+  font-size: 17px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.icon h3 {
+  margin: 0;
+  padding: 20px;
+  font-size: 27px;
+  padding-top: 30px;
+}
+.ques {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-left: 125px;
+  margin-top: 40px;
+}
+.wh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.what {
+  height: 80px;
+  width: 90%;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.349);
+  padding: 10px;
+}
+.text {
+  margin-top: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.emaill {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  justify-content: center;
+}
+.emaill input {
+  padding: 15px;
+  width: 50%;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: gray;
+  border: 1px solid gray;
+}
+.emaill button {
+  background-color: red;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer {
+  color: rgb(161, 154, 154);
+  padding-left: 15%;
+  padding-bottom: 50px;
+}
+.links {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 15%;
+  gap: 15px;
+  padding-left: 10%;
+}
+.links a {
+  color: rgb(161, 154, 154);
+  font-family: sans-serif;
+}
+.btnn {
+  height: 27px;
+  margin: 4px;
+  color: white;
+  background-color: transparent;
+  width: 120px;
+  border: 1px solid grey;
+}
+.language {
+  padding-top: 50px;
+  padding-left: 9%;
+}
+.lastt {
+  color: rgb(117, 112, 112);
+  padding-left: 0;
+}
+.okay {
+  color: gray;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    padding-left: 20px;
+    height: 60px;
+  }
+
+  .right {
+    padding-right: 20px;
+  }
+
+  .data .un h1 {
+    font-size: 38px;
+    line-height: 1.1;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .enter {
+    font-size: 14px;
+  }
+
+  .email,
+  .emaill {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email input,
+  .emaill input {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .email button,
+  .emaill button {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .mov h3 {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .trend {
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .trend img {
+    width: 120px;
+  }
+
+  .join h3 {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .reason {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .ques {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+
+  .what {
+    width: 90%;
+    font-size: 16px;
+    height: auto;
+  }
+
+  .links {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5%;
+  }
+
+  .footer {
+    padding-left: 5%;
+  }
+
+  .language {
+    padding-left: 5%;
+  }
+}
